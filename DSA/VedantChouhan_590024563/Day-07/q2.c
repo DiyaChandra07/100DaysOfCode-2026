@@ -9,7 +9,6 @@ int main() {
 
     int len = strlen(s);
 
-    // Remove newline character if present
     if (s[len - 1] == '\n') {
         s[len - 1] = '\0';
         len--;
